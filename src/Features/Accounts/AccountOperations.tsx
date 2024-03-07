@@ -13,8 +13,6 @@ export const AccountOperations = () => {
 
   const account = useSelector((state) => state.account);
 
-  console.log(account);
-
   const handleDeposit = () => {
     if (!depositAmount) return;
 
